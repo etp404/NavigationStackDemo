@@ -9,8 +9,8 @@ import Foundation
 import SwiftUI
 
 struct TheDetailView: View {
-    let itemLabel: String
+    let item: SomeItem
     var body: some View {
-        Text("This is the detail view for \(itemLabel)")
+        Text("This is the detail view for \(item.value)")
     }
 }

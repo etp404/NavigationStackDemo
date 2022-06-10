@@ -15,7 +15,7 @@ struct ContentView: View {
         NavigationView {
             List(items) { item in
                 NavigationLink(item.value) {
-                    TheDetailView(itemLabel: item.value)
+                    TheDetailView(item: item)
                 }
             }
         }
