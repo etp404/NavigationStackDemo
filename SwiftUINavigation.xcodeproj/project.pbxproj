@@ -17,6 +17,8 @@
 		C9D85B3E28536A9B00888DB1 /* SwiftUINavigationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D85B3D28536A9B00888DB1 /* SwiftUINavigationUITests.swift */; };
 		C9D85B4028536A9B00888DB1 /* SwiftUINavigationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D85B3F28536A9B00888DB1 /* SwiftUINavigationUITestsLaunchTests.swift */; };
 		C9D85B4D28536FBE00888DB1 /* TheDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D85B4C28536FBE00888DB1 /* TheDetailView.swift */; };
+		C9D85B4F28537B8400888DB1 /* TheMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D85B4E28537B8400888DB1 /* TheMainView.swift */; };
+		C9D85B5128537D1500888DB1 /* AFetcherOfThings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D85B5028537D1500888DB1 /* AFetcherOfThings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		C9D85B3D28536A9B00888DB1 /* SwiftUINavigationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUINavigationUITests.swift; sourceTree = "<group>"; };
 		C9D85B3F28536A9B00888DB1 /* SwiftUINavigationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUINavigationUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C9D85B4C28536FBE00888DB1 /* TheDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheDetailView.swift; sourceTree = "<group>"; };
+		C9D85B4E28537B8400888DB1 /* TheMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheMainView.swift; sourceTree = "<group>"; };
+		C9D85B5028537D1500888DB1 /* AFetcherOfThings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFetcherOfThings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,8 @@
 				C9D85B2828536A9A00888DB1 /* SwiftUINavigation.xcdatamodeld */,
 				C9D85B2328536A9A00888DB1 /* Preview Content */,
 				C9D85B4C28536FBE00888DB1 /* TheDetailView.swift */,
+				C9D85B4E28537B8400888DB1 /* TheMainView.swift */,
+				C9D85B5028537D1500888DB1 /* AFetcherOfThings.swift */,
 			);
 			path = SwiftUINavigation;
 			sourceTree = "<group>";
@@ -267,9 +273,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9D85B2728536A9A00888DB1 /* Persistence.swift in Sources */,
+				C9D85B4F28537B8400888DB1 /* TheMainView.swift in Sources */,
 				C9D85B2A28536A9A00888DB1 /* SwiftUINavigation.xcdatamodeld in Sources */,
 				C9D85B2028536A9400888DB1 /* ContentView.swift in Sources */,
 				C9D85B4D28536FBE00888DB1 /* TheDetailView.swift in Sources */,
+				C9D85B5128537D1500888DB1 /* AFetcherOfThings.swift in Sources */,
 				C9D85B1E28536A9400888DB1 /* SwiftUINavigationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

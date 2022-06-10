@@ -8,29 +8,18 @@
 import SwiftUI
 import CoreData
 
-struct ContentView: View {
-    private var items = [SomeItem("Item A"), SomeItem("Item B"), SomeItem("Item C")]
-
+struct Navigation: View {
+    
     var body: some View {
-        NavigationView {
-            List(items) { item in
-                NavigationLink(item.value) {
-                    TheDetailView(item: item)
-                }
+        NavigationStack() {
+            TheMainView().navigationDestination(for: SomeItem.self) {item in
+                TheDetailView(item: item, someFetcherOfThings: AFetcherOfThings())
             }
         }
     }
-
 }
 
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
-    }
-}
-
-class SomeItem: Identifiable {
+class SomeItem: NSObject, Identifiable {
     init(_ value: String) {
         self.value = value
     }
